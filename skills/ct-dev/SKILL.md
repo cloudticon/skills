@@ -1,3 +1,8 @@
+---
+name: ct-dev
+description: Set up a local Cloudticon development workflow with live file sync into a running pod, port forwarding and `dev.ct` configuration. Use when the user mentions `ct dev`, `dev.ct`, the `config()`, `dev()`, `env()` or `prompt()` globals, live reload, port forwarding, syncing files to a pod, or dev namespaces.
+---
+
 # CT Dev — Developer Mode
 
 Use this skill when the user wants to set up a local development workflow with Cloudticon, live-sync files to a running pod, configure port forwarding, or work with `dev.ct` files. Relevant trigger terms: `ct dev`, `dev.ct`, `config()`, `dev()`, `env()`, `prompt()`, "live reload", "port forward", "sync to pod", "dev namespace".

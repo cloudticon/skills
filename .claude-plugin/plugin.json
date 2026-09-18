@@ -1,0 +1,11 @@
+{
+  "name": "cloudticon",
+  "displayName": "Cloudticon (CT)",
+  "description": "Skills for Cloudticon — defining, rendering and deploying Kubernetes manifests in TypeScript instead of Helm charts.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cloudticon"
+  },
+  "repository": "https://github.com/cloudticon/skills",
+  "keywords": ["kubernetes", "cloudticon", "helm", "typescript", "devops"]
+}

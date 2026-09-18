@@ -1,3 +1,8 @@
+---
+name: ct-cli
+description: Create, render, deploy and manage Kubernetes manifests with the Cloudticon (CT) CLI, a type-safe TypeScript alternative to Helm. Use when the user mentions `ct init`, `ct template`, `ct apply`, `ct delete`, `ct list`, `ct types`, `main.ct` or `values.json`, or asks to render YAML, generate K8s manifests, or deploy a CT project to a cluster.
+---
+
 # CT CLI — Cloudticon Command-Line Interface
 
 Use this skill when the user wants to create, render, deploy, or manage Kubernetes manifests using Cloudticon (CT). Relevant trigger terms: `ct init`, `ct template`, `ct apply`, `ct delete`, `ct list`, `ct types`, main.ct, values.json, "render YAML", "deploy to cluster", "generate K8s manifests".

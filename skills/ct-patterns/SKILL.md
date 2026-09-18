@@ -1,3 +1,8 @@
+---
+name: ct-patterns
+description: Define Kubernetes resources in Cloudticon using high-level factories (`webApp`, `expose`), shared platform factories (`createFactory`), custom CRDs via `resource()`, env and volume helpers, and GitHub URL imports. Use when the user writes `.ct` files, asks about `resource()`, `env.secret`, `vol.pvc`, `k8s-factories`, importing from GitHub, or building a shared factory library.
+---
+
 # CT Patterns — Resources, Factories & Imports
 
 Use this skill when the user wants to define Kubernetes resources in CT, use high-level factories (`webApp`, `expose`), create platform-level shared factories (`createFactory`), define custom CRDs (`resource()`), or work with GitHub URL imports. Relevant trigger terms: `resource()`, `webApp`, `expose`, `createFactory`, `env.secret`, `vol.pvc`, `.ct files`, "import from GitHub", "shared factory", "CRD", "k8s-factories".

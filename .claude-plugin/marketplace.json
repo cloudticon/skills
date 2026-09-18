@@ -1,0 +1,15 @@
+{
+  "name": "cloudticon",
+  "owner": {
+    "name": "Cloudticon",
+    "url": "https://github.com/cloudticon"
+  },
+  "description": "Cloudticon skills for Claude Code.",
+  "plugins": [
+    {
+      "name": "cloudticon",
+      "source": "./",
+      "description": "CT CLI, developer mode and resource patterns for Cloudticon."
+    }
+  ]
+}
