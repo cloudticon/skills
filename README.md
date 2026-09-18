@@ -21,6 +21,25 @@ In Claude Code:
 The skills load automatically whenever a task matches their description.
 `/plugin marketplace update cloudticon` pulls later changes.
 
+## Install for every cloud session in an environment
+
+Cloud session containers are ephemeral, so anything copied into `~/.claude/skills`
+by hand disappears with the container. To have the skills present in *every*
+session started in a cloud environment, put them in the environment's **setup
+script** instead.
+
+At [claude.ai/code](https://claude.ai/code), open the environment's settings and
+paste the contents of [`setup/install-skills.sh`](setup/install-skills.sh) into
+the **Setup script** field.
+
+The script runs once per environment; Anthropic then snapshots the filesystem and
+reuses it for later sessions, so startup stays fast. The snapshot is rebuilt when
+you edit the setup script or allowed hosts, and after roughly seven days — that is
+also when the skills are refreshed from `master`. To pull a new version sooner,
+make any edit to the setup script field and save.
+
+The repository is public, so the clone needs no credentials.
+
 ## Install manually
 
 Copy the skill directories into your personal or project skills directory:
